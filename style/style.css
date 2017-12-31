@@ -1,0 +1,27 @@
+/*this is the main css of the page*/
+html,body {
+  height:100%;
+
+}
+
+.full_page{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.head_info{
+  background-color: #eee;
+  padding: 5px;
+}
+
+.navigation{
+
+}
+
+.navbar{
+ border-radius: 0px;
+}
+.test{
+  min-height: 450px;
+  background-color: red;
+}
