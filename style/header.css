@@ -4,12 +4,12 @@ html,body {
 
 }
 
-.first {
+.home {
   padding-top:140px;
   height:100vh;
   min-height:400px;
   background-size:cover;
-  background-image:url('../img/5.jpg');
+  background-image:url('../img/home-megenagna.png');
 }
 
 .affix {
