@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>my web</title>
-    <!-- bootstrap css -->
+    <!-- lib css -->
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- my statyle sheets  -->
     <link rel="stylesheet" href="style/style.css" rel="stylesheet">
@@ -17,12 +17,19 @@
   <!-- BODY -->
   <body>
     <!-- head info  -->
-    <div class="row">
-    this is top head
+    <div class="head_info">
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
+      <div class="phone">
+        <i class="fa fa-phone " aria-hidden="ture"></i><span class="phone_num">+251-940-60-92-94</span>
+      </div>
     </div>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="400">
-      <div class="container">
+
+<!-- <div class="navbar navbar-inverse navbar-fixed-top sticky-top" data-spy="affix" data-offset-top="400"> -->
+      <div class="container navigation">
           <div class="navbar-header">
             <a href="#" class="navbar-brand">Brand</a>
             <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -31,13 +38,14 @@
           </div>
 
           <div class="navbar-collapse collapse">
-            <!-- <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav">
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
-            </ul> -->
+            </ul>
             <ul class="nav navbar-right navbar-nav">
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="#about_us">About us</a></li>
+              <li><a href="#what_we_do">oper service</a></li>
+              <li><a href="#contact_us">Contact us</a></li>
             </ul>
           </div>
       </div>
@@ -46,32 +54,89 @@
     <section class="home">
       <div class="container">
         <h1 class="text-center">Hello.</h1>
-
       </div>
     </section>
 
     <section id="about_us">
       <div class="container">
         <h1>About us</h1>
+        <p class="disctiption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo
+        </p>
       </div>
     </section>
 
     <section id="what_we_do">
       <div class="container">
-        <h1>Here is some more content</h1>
+        <h1>What we do</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <i class="fa-mobile-phone"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fa-mobile-phone"></i>
+            <h3>networking</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fa-mobile-phone"></i>
+            <h3>Desktop applicaton</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fa-mobile-phone"></i>
+            <h3>mobile application</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem quam, scelerisque vitae sem non, ornare condimentum leo. Vivamus eros tortor, tincidunt et viverra ac, gravida eu augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nibh ex, hendrerit at tellus sed, laoreet suscipit leo</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact_us">
       <div class="container">
         <h1>contact us</h1>
+          <div class="row">
+            <div class="col">
+              <h3>Stay in touch</h3>
+
+              <p>Subsctib for update use the form below</p>
+              <form>
+                <div class="form-group">
+                  <label for="notify_email">Example label</label>
+                  <input type="email" class="form-control" id="notify_email" placeholder="Email address">
+                </div>
+                <input type="submit" class="btn " value="notify me">
+              </form>
+            </div>
+            <div class="col">
+              <!--left side contact form  -->
+              <form>
+                <div class="form-group">
+                  <lable for="user_name">Name:</label>
+                  <input type="text" class="form-control" id="user_name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <lable for="user_email">Email:</label>
+                  <input type="email" class="form-control" id="user_email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="user_message">Message:</label>
+                  <textarea class="form-control" id="user_message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section>
-      this is the footer!!
-    </section>
+    <div class="footer">
+      &copy; All right reserved. this is the footer!!
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   </body>

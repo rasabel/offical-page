@@ -11,10 +11,36 @@ padding-right: 0px;
 
 .head_info{
   background-color: #eee;
-  padding: 5px;
+  padding: 5px ;
+}
+/*the lnk is not working*/
+.head_info a{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    cursor: pointer;
+    background-color:#33383b;
+    border-radius:2px;
+    font-size:20px;
+    color:#ffffff;
+    text-align:center;
+    line-height:35px;
+    margin-right:5px;
+    margin-left: 5px;
+
+}
+
+
+.phone{
+float: right;
+padding-right: 20px;
+}
+.phone i{
+  padding-right: 10px;
 }
 
 .navigation{
+  padding-top:15px;
 
 }
 
@@ -24,4 +50,27 @@ padding-right: 0px;
 .test{
   min-height: 450px;
   background-color: red;
+}
+
+/*page body*/
+#about_us h1{
+  text-align: center;
+  text-transform: uppercase;;
+}
+section .container{
+  width: 960px;
+
+
+}
+section .container h1{
+text-align: center;
+}
+#what_we_do i{
+  font-size: 36px;
+}
+
+/*footer*/
+.footer{
+  background-color: black;
+  padding: 20px 50px;
 }
