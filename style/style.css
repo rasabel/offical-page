@@ -9,6 +9,7 @@ padding-left: 0px;
 padding-right: 0px;
 }
 
+/*header information bar*/
 .head_info{
   background-color: #eee;
   padding: 5px ;
@@ -27,10 +28,7 @@ padding-right: 0px;
     line-height:35px;
     margin-right:5px;
     margin-left: 5px;
-
 }
-
-
 .phone{
 float: right;
 padding-right: 20px;
@@ -39,17 +37,9 @@ padding-right: 20px;
   padding-right: 10px;
 }
 
-.navigation{
-  padding-top:15px;
-
-}
 
 .navbar{
  border-radius: 0px;
-}
-.test{
-  min-height: 450px;
-  background-color: red;
 }
 
 /*page body*/
