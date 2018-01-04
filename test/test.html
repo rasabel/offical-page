@@ -1,0 +1,122 @@
+<link rel="stylesheet" href="lib/bootstrap3/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- my statyle sheets  -->
+  <link rel="stylesheet" href="style/style.css" rel="stylesheet">
+  <style>
+  /* CSS used here will be applied after bootstrap.css */
+html,body {
+  height:100%;
+
+}
+
+.first {
+  padding-top:140px;
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('img/5.jpg');
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  -o-transition:padding 0.2s ease-out;
+  transition:padding 0.2s ease-out;
+
+}
+  /* navbar style at top */
+.affix-top {
+
+  background:transparent;
+  border-color:transparent;
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+
+.affix-top .nav>li>a {
+   color: #000;
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
+
+
+
+
+  </style>
+
+
+
+  <!--<link rel="stylesheet" href="style/header.css" rel="stylesheet">-->
+<div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="400">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">Brand</a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+      <ul class="nav navbar-right navbar-nav">
+        <li>
+          <a href="#">Link</a>
+        </li>
+        <li>
+          <a href="#"><span class="badge">2</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div><!-- /.navbar -->
+
+<section class="first">
+  <div class="container">
+    <h1 class="text-center">Hello.</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h1>Here is some more content</h1>
+  </div>
+</section>
+
+<section>
+
+  <div class="container">
+
+    <h1>Here is some more content</h1>
+
+  </div>
+
+</section>
+
+<section>
+
+  <div class="container">
+
+    <h1>Here is some more content</h1>
+
+  </div>
+
+</section>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/bootstrap3/js/bootstrap.min.js"></script>
