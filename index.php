@@ -189,52 +189,6 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="card-group">
-        <div class="card w-25">
-          <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-
-        <div class="card w-25">
-          <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-        <div class="card w-25">
-          <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-        <div class="card w-25">
-          <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-      <style>
-        .card-img-top:hover{
-          height: 200px;
-        }
-      </style>
-      <div class="bg-info clearfix">
-  <button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
-  <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
-</div>
-    </section>
   </div>
   <div class="footer">
     &copy; All right reserved. <a href="pages/termANDpolicy.html">Term and policy</a>
