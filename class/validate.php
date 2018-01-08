@@ -21,8 +21,7 @@ class validate
         }
       }
       insert_db::insert_to_db($net);
-      
-      //  header("Location: /myweb/class/insert_db.php");
+      //header("Location: /myweb/class/insert_db.php");
     }
   }
 
