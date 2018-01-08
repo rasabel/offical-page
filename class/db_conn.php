@@ -7,14 +7,15 @@ class db{
     $password = "";
 
     // Create connection
-    $this->conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password);
 
     // Check connection
-    if ($this->conn->connect_error) {
-      die("Connection failed: " . $this->conn->connect_error);
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }else{
+    return $conn;
+    //echo "Connected successfully";
     }
-    echo "Connected successfully";
-
   }
 
   function close_connection(){
