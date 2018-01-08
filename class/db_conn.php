@@ -5,9 +5,10 @@ class db{
     $servername = "localhost";
     $username = "root";
     $password = "";
+    $db="company";
 
     // Create connection
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password,$db);
 
     // Check connection
     if ($conn->connect_error) {
@@ -18,9 +19,14 @@ class db{
     }
   }
 
+
+
+
   function close_connection(){
     $this->conn->close();
     echo "connection closed";
   }
 }
+db::connection();
+
 ?>

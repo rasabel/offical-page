@@ -14,10 +14,11 @@ class insert_db extends db{
       }
     $key=array_keys($net);
     $value=array_values($net);
-
+    $net_value=implode("','",$value);
+    print_r($net_value);
     $sql="INSERT INTO `".$table."`(`".implode('`,`',$key)."`)
-          VALUES ('".implode('`,`',$value)."')";
-
+          VALUES ('".$net_value."')";
+    echo $sql;
       if (db::connection()->query($sql) === TRUE) {
         echo "New record created successfully";
       } else {
